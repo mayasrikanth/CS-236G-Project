@@ -1,4 +1,4 @@
-# CS-236G-Project
+# CS-236G-Project: Illustrating Stories with Deep Generative Models
 
 
 For the initial milestone, I downloaded off-the-shelf models (GPT-J, GLIDE) on a GCP instance and issued various prompts to them, so there are no specific scripts required to replicate the Milestone 1 results. Insteadd, you can follow the instructions below:
