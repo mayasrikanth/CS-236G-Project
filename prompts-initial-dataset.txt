@@ -1,0 +1,63 @@
+Prompt Type 1: Generate more visually descriptive sentences based on a simple input sentence. 
+
+Input: 
+1. Sentence: A black cat sits next to a pumpkin 
+Image: A cat with fluffy black fur sits on a stone wall in the backyard next to a carved Halloween pumpkin 
+
+
+GPT-J Output: (corresponding to input 1)
+2. Sentence: A swan on a lake 
+Image: A big white, proud swan stands in a lake on a darkening autumn day 
+
+
+3. Sentence: Frogs in a pond 
+Image: Little green frogs are enjoying life in a pond, surrounded by lots of weeds and small stones.
+
+
+Input: 
+4. Sentence: Mermaid in sea
+Image: A mermaid with long purple hair and a rainbow fin swims in shallow water
+
+
+GPT-J Output: (corresponding to input 4)
+
+5. Sentence: Farmer on ranch
+Image: Farmer plows a field on a ranch in the western USA
+
+
+6.Sentence: Mississippi Railcar
+Image: A class 66 railcar is pulled on a 30ft wide transporter towing hoist
+
+
+Prompt Type 2: Finish a sentence in an open-ended fashion. 
+
+
+Input: 
+7. The sailor saw something truly marvelous. 
+
+
+GPT-J Output:(corresponding to input 7)
+8. The harbor was dotted with vessels. Each one was being used as a mobile workshop, where small crews were welding up repairs and new patches on old hulls. He counted more than a dozen vessels, and he could not help but wonder where they all came from. It was like a field of ripening grain. But there was a problem. It wasn't the only field. There were many more. The problem was that the workers were no longer working. They were in place, their welders, grinders, and sanders idle. He looked around. It was like a carnival. 
+
+
+
+Input:
+9. A girl in a red dress sailing on cotton candy skies was 
+
+
+GPT-J Output: (corresponding to input 9)
+
+10. searching for her friend who she had met a few hours earlier. The girl was just a small girl, her hair was blonde and the light shone in her blue eyes. The sun was out, the day was hot and the girl felt so happy and excited. As she was looking around, she saw a red rose lying on the ground. It was the same kind of rose that her friend had given her earlier. She picked it up and put it in her hair. The smell of the flower made her feel so good.
+
+
+
+Prompt Type 3: Spatial Reasoning Prompts 
+
+11. One fluffy cat to the left of two fluffy dogs 
+
+
+12. Two apples and two bananas
+
+
+13. White owl perched on lavender tree with snow 
+
