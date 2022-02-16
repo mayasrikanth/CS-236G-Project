@@ -13,4 +13,4 @@ For the initial milestone, I downloaded off-the-shelf models (GPT-J, GLIDE) on a
 
 
 
-For future deadlines, I plan to include well-documented/user-friendly code for generating novel story prompts and creating illustrations based on these prompts!
+For future deadlines, I plan to include well-documented/user-friendly colab notebook for generating novel story prompts and creating illustrations based on these prompts!
