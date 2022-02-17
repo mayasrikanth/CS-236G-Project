@@ -6,9 +6,9 @@ For the initial milestone, I downloaded off-the-shelf models (GPT-J, GLIDE) on a
 
 **Instructions for Replicating Milestone 1 Zero-shot Baseline Results:**
 
-(1) **Generating prompts:** to generate the prompts, I used EleutherAI's 6-billion parameter GPT-J model, trained on a cross entropy loss objective to maximize the likelihood of predicting the correct next token. I used their [playground site](https://6b.eleuther.ai/) to generate the prompts discussed in my writeup. I also supplied my own prompts to inspire creative outputs from GPT-J. All prompts used for the baseline analysis are included in this repo in the file prompts-initial-dataset.txt. 
+(1) **Generating prompts:** to generate the prompts, I used EleutherAI's 6-billion parameter GPT-J model, trained on a cross entropy loss objective to maximize the likelihood of predicting the correct next token. I used their [playground site](https://6b.eleuther.ai/) to generate the prompts discussed in my writeup. I also supplied my own prompts to inspire creative outputs from GPT-J. All prompts used for the baseline analysis are included in this repo in the file prompts-initial-dataset.txt. For next steps, I've started a colab notebook (in progress) for generating story prompts with a GPT model. 
 
-(2) **Generating images:** I cloned openAI's [glide-text2im](https://github.com/openai/glide-text2im) repository and utilized their small, filtered GLIDE model (a CLIP-guided Gaussian diffusion model) to produce images given various prompts. Specifically, I used their colab demo [glide-text2im](https://github.com/openai/glide-text2im/blob/main/notebooks/text2im.ipynb). 
+(2) **Generating images:** I cloned openAI's [glide-text2im](https://github.com/openai/glide-text2im) repository and utilized their small, filtered GLIDE model (a CLIP-guided Gaussian diffusion model) to produce images given various prompts. Specifically, I used their colab demo [glide-text2im](https://github.com/openai/glide-text2im/blob/main/notebooks/text2im.ipynb). For convenience, I've included a notebook in this repo which installs the necessary dependencies to run GLIDE's text2im code in the browser. 
 
 
 
