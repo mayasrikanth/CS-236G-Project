@@ -16,7 +16,7 @@ create an image description, as well as generate novel ideas, with rough code in
 (4) (Milestone 2) **Probe artistic capabilities of GLIDE and v-diffusion**: For this step, I cloned openAI's [glide-text2im](https://github.com/openai/glide-text2im) and Katherine Crowson's [v-diffusion-pytorch](https://github.com/crowsonkb/v-diffusion-pytorch), and issued creative prompts to both models. 
 
 
-(5) (Milestone 2) **In-painting:** test GLIDE in-painting for combining the outputs of 2 diffusion models. Specifically, I used openAI's inpainting Colabs (I modified the input images and mask shapes) to enable GLIDE in-painting over scenery produced by v-diffusion. 
+(5) (Milestone 2) **In-painting: test GLIDE in-painting for combining the outputs of 2 diffusion models:** Specifically, I used openAI's inpainting Colabs (I modified the input images, prompts, and mask shapes) to enable GLIDE in-painting over scenery produced by v-diffusion. 
 
 (6) **In-progress:** I am working on finetuning code for GLIDE which includes an additonal adversarial loss term. If time permits, I hope to begin the finetuning process on Conceptual 12M (described in more detail in my submission). 
 
