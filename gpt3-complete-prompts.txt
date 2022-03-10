@@ -1,0 +1,12 @@
+
+Story 1: 
+Background: Butter is a golden retriever dog. Jam is a squirrel. The story takes place on a beach on a sunny day.
+Sentences: Butter the golden retriever dog was enjoying a warm summer day at the beach. The turquoise ocean waters sparkle in the sunlight and a dolphin jumps up to say hello from distant ocean waters. Butter was happily waving to the jumping dolphin with her left paw when she heard a small squeak. She looked down and saw a squirrel sitting on her right paw. “I’m Jam,” said the squirrel, “would you like to go swimming with me?” “Of course!” said Butter. Both Butter and Jam set off to go swim in the shallow ocean waters. 
+Output: A golden retriever dog is sitting on a beach with turquoise ocean waters on a sunny day. A blue dolphin jumps out of ocean water. A golden retriever sits on a beach on a sunny day and waves hello with its left paw. The golden retriever dog sits on a beach with turquoise ocean waters next to a fluffy brown squirrel on a sunny day. A golden retriever dog and fluffy brown squirrel are swimming in shallow, turquoise ocean waters on a sunny day. 
+
+Story 2
+Background: Mina is a black cat. This story takes place in a suburban backyard during Halloween. 
+Sentences: Mina the cat fluffs her fur as a cold wind swept past her. Mina wanders along a suburban neighborhood street during a cold autumn evening, hoping to find some scraps to eat. She is walking listlessly until something catches her eye: she stops in her tracks to gaze at a looming, deep red mansion with white marble pillars. A large Halloween pumpkin sits on the porch. Mina approaches the pumpkin, sniffing curiously, and jumps in delight when she sees another surprising sight: a candy bowl, filled to the brim with cat food and treats! “Happy Halloween to me,” Mina purrs.  
+Output: 
+A black fluffy cat walks along a suburban neighborhood on a cold, autumn evening. A large red mansion with white pillars and Halloween pumpkin stands in a suburban neighborhood on a cold autumn evening. A fluffy black cat sits next to a Halloween pumpkin and a large black bowl of cat treats on the porch of a large red mansion. A fluffy black cat is eating from a large black bowl of cat treats on a cold autumn evening. 
+
