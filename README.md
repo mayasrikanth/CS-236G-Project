@@ -4,7 +4,7 @@
 For the initial milestone, I downloaded off-the-shelf models (GPT-J, GLIDE) on a GCP instance and issued various prompts to them, so there are no specific scripts in this repository that are required to replicate the Milestone 1 results. The instructions below describe how I generated results in the writeup:
 
 
-**Instructions for Replicating Milestone 1 Zero-shot Baseline Results and Milestone 2 Results:**
+**Instructions for Replicating Milestone 1 Zero-shot Baseline Results, Milestone 2 Results, Final Results:**
 
 (1) (Milestone 1) **Generating prompts:** to generate the prompts, I used EleutherAI's 6-billion parameter GPT-J model, trained on a cross entropy loss objective to maximize the likelihood of predicting the correct next token. I used their [playground site](https://6b.eleuther.ai/) to generate the prompts discussed in my writeup. I also supplied my own prompts to inspire creative outputs from GPT-J. All prompts used for the baseline analysis are included in this repo in the file prompts-initial-dataset.txt. For next steps, I've started a colab notebook (in progress) for generating story prompts with a GPT model. 
 
@@ -18,7 +18,16 @@ create an image description, as well as generate novel ideas, with rough code in
 
 (5) (Milestone 2) **In-painting: test GLIDE in-painting for combining the outputs of 2 diffusion models:** Specifically, I used openAI's inpainting Colabs (I modified the input images, prompts, and mask shapes) to enable GLIDE in-painting over scenery produced by v-diffusion. 
 
-(6) **In-progress:** I am working on finetuning code for GLIDE which includes an additonal adversarial loss term. If time permits, I hope to begin the finetuning process on Conceptual 12M (described in more detail in my submission). 
+(6) (Final)
+- I constructed novel story prompts for GPT-3 (gpt3-complete-prompts.txt, gpt3-partial-prompts.txt)
+- I downloaded a subset of CC12M in webdataset format using [img2dataset](https://github.com/rom1504/img2dataset/blob/main/dataset_examples/mscoco.md)
+- I adapted fine-tuning scripts from [glide-finetune](https://github.com/afiaka87/glide-finetune) and wrote new code for fine-tuning with novel adversarial objective (Discriminator.py, train_glide_adversarial.py, finetune_glide_adversarial.py), as well as code for loading data for FID calculation with [clean-fid](https://github.com/GaParmar/clean-fid) (FID_eval.py, wds_loader_eval.py).
+
+
+
+
+
+**In-progress:** I am working on finetuning code for GLIDE which includes an additonal adversarial loss term. If time permits, I hope to begin the finetuning process on Conceptual 12M (described in more detail in my submission). 
 
 
 For the final deadline, I plan to include well-documented/user-friendly colab notebook for generating novel story prompts and creating illustrations based on these prompts!
