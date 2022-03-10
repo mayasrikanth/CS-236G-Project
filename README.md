@@ -23,6 +23,3 @@ create an image description, as well as generate novel ideas, with rough code in
 - I downloaded a subset of CC12M in webdataset format using [img2dataset](https://github.com/rom1504/img2dataset/blob/main/dataset_examples/mscoco.md)
 - I adapted fine-tuning scripts from [glide-finetune](https://github.com/afiaka87/glide-finetune) and wrote new code for fine-tuning with novel adversarial objective (Discriminator.py, train_glide_adversarial.py, finetune_glide_adversarial.py), as well as code for loading data for FID calculation with [clean-fid](https://github.com/GaParmar/clean-fid) (FID_eval.py, wds_loader_eval.py).
 
-
-
-For the final deadline, I plan to include well-documented/user-friendly colab notebook for generating novel story prompts and creating illustrations based on these prompts!
